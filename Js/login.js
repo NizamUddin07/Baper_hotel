@@ -14,10 +14,14 @@ document.getElementById('btn-submit').addEventListener('click', function(){
 
 
     if(email=='baperhotel@gmail.com' && password =='password'){
-        console.log('valid user')
+        // console.log('valid user')
+        window.location.href='bank.html';
     }
     else{
-        console.log('invalid user');
+        // 
+        alert('Latti khabi')
+
+
     }
 
 })
