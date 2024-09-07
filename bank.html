@@ -20,7 +20,7 @@
         </div>
         <div class="bg-pink-400 p-8 rounded">
             <h4 class="text-2xl">Withdraw</h4>
-            <h2 class="text-5xl">$00</h2>
+            <h2 class="text-5xl">$<span id="withdraw-total">00</span></h2>
         </div>
         <div class="bg-red-300 p-8 rounded">
             <h4    class="text-2xl">Balance</h4>
@@ -35,14 +35,14 @@
             <button id="btn-deposite" class="bg-blue-600 py-3 px-10 rounded-xl text-white">Deposite</button>
         </div>
         <div class="bg-purple-400 p-8 rounded">
-            <h4 class="text-2xl text-white">Please Withdraw</h4>
-            <input class="block mt-5 mb-5 h-10 w-9/12 rounded p-5" type="email" name="" id="user-email"
-                placeholder="$Amount you want to Withdraw">
+            <h4 id="withdraw-text" class="text-2xl text-white">Please Withdraw</h4>
+            <input id="withdraw-field"   class="block mt-5 mb-5 h-10 w-9/12 rounded p-5"  placeholder="$Amount you want to Withdraw">
             <button id="btn-withdraw" class="bg-blue-600 py-3 px-10 rounded-xl text-white">Withdraw</button>
         </div>
        
     </div>
     <script src="Js/deposite.js"></script>
+    <script src="Js/withdraw.js"></script>
 </body>
 
 </html>
